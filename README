@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=647
+
+This will add all a online help for DOS commands (created from windows XP) to vim help system so you can find help for any dos commands by doing :help command
+
+Example
+:help FOR 
+
+Note: all the dos commands are defined as uppercase, so use all uppercase when using help command.
