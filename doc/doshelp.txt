@@ -82,7 +82,8 @@
 
 ==============================================================================
 
-ASSOC							*ASSOC*~
+                                                                 *ASSOC*
+ASSOC							~
 Displays or modifies file extension associations
 
 ASSOC [.ext[=[fileType]]]
@@ -97,8 +98,9 @@ type and the command will delete the association for the file extension.
 
 ==============================================================================
 
-   							*AT*~
-AT 							~
+
+                                                                 *AT*
+AT							~
 The AT command schedules commands and programs to run on a computer at      
 a specified time and date. The Schedule service must be running to use      
 the AT command.
@@ -129,7 +131,8 @@ time               Specifies the time when command is to run.
 
 ==============================================================================
 
-ATTRIB							*ATTRIB*~
+                                                                 *ATTRIB*
+ATTRIB							~
 Displays or changes file attributes.
 
 ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [drive:][path][filename]
@@ -150,7 +153,8 @@ ATTRIB [+R | -R] [+A | -A ] [+S | -S] [+H | -H] [drive:][path][filename]
 
 ==============================================================================
 
-BREAK							*BREAK*~
+                                                                 *BREAK*
+BREAK							~
 Sets or Clears Extended CTRL+C checking on DOS system
 
 This is present for Compatibility with DOS systems. It has no effect
@@ -162,7 +166,8 @@ if being debugged by a debugger.
 
 ==============================================================================
 
-CACLS							*CACLS*~
+                                                                 *CACLS*
+CACLS							~
 Displays or modifies access control lists (ACLs) of files
 
 CACLS filename [/T] [/E] [/C] [/G user:perm] [/R user [...]]
@@ -198,7 +203,8 @@ Abbreviations:
 
 ==============================================================================
 
-CALL							*CALL*~
+                                                                 *CALL*
+CALL							~
 Calls one batch program from another.
 
 CALL [drive:][path]filename [batch-parameters]
@@ -263,7 +269,8 @@ etc.) have been changed as follows:
 
 ==============================================================================
 
-CD							*CD*~
+                                                                 *CD*
+CD							~
 Displays the name of or changes the current directory.
 
 CHDIR [/D] [drive:][path]
@@ -299,7 +306,8 @@ which is what you would have to type if extensions were disabled.
 
 ==============================================================================
 
-CHCP							*CHCP*~
+                                                                 *CHCP*
+CHCP							~
 Displays or sets the active code page number.
 
 CHCP [nnn]
@@ -310,7 +318,8 @@ Type CHCP without a parameter to display the active code page number.
 
 ==============================================================================
 
-CHDIR							*CHDIR*~
+                                                                 *CHDIR*
+CHDIR							~
 Displays the name of or changes the current directory.
 
 CHDIR [/D] [drive:][path]
@@ -346,7 +355,8 @@ which is what you would have to type if extensions were disabled.
 
 ==============================================================================
 
-CHKDSK							*CHKDSK*~
+                                                                 *CHKDSK*
+CHKDSK							~
 Checks a disk and displays a status report.
 
 
@@ -377,7 +387,8 @@ skipping certain checks of the volume.
 
 ==============================================================================
 
-CHKNTFS							*CHKNTFS*~
+                                                                 *CHKNTFS*
+CHKNTFS							~
 Displays or modifies the checking of disk at boot time.
 
 CHKNTFS volume [...]
@@ -404,14 +415,16 @@ dirty or scheduled to be checked on next reboot.
 
 ==============================================================================
 
-CLS							*CLS*~
+                                                                 *CLS*
+CLS							~
 Clears the screen.
 
 CLS
 
 ==============================================================================
 
-CMD							*CMD*~
+                                                                 *CMD*
+CMD							~
 Starts a new instance of the Windows XP command interpreter
 
 CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF]
@@ -589,7 +602,8 @@ The special characters that require quotes are:
 
 ==============================================================================
 
-COLOR							*COLOR*~
+                                                                 *COLOR*
+COLOR							~
 Sets the default console foreground and background colors.
 
 COLOR [attr]
@@ -622,7 +636,8 @@ same. >
 
 ==============================================================================
 
-COMP							*COMP*~
+                                                                 *COMP*
+COMP							~
 Compares the contents of two files or sets of files.
 
 COMP [data1] [data2] [/D] [/A] [/L] [/N=number] [/C] [/OFF[LINE]]
@@ -640,7 +655,8 @@ To compare sets of files, use wildcards in data1 and data2 parameters.
 
 ==============================================================================
 
-COMPACT							*COMPACT*~
+                                                                 *COMPACT*
+COMPACT							~
 Displays or alters the compression of files on NTFS partitions.
 
 COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [filename [...]]
@@ -670,7 +686,8 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [filename [...]]
 
 ==============================================================================
 
-CONVERT							*CONVERT*~
+                                                                 *CONVERT*
+CONVERT							~
 Converts FAT volumes to NTFS.
 
 CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
@@ -689,7 +706,8 @@ CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
 
 ==============================================================================
 
-COPY							*COPY*~
+                                                                 *COPY*
+COPY							~
 Copies one or more files to another location.
 
 COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/A | /B ] source [/A | /B]
@@ -719,7 +737,8 @@ for source (using wildcards or file1+file2+file3 format).
 
 ==============================================================================
 
-DATE							*DATE*~
+                                                                 *DATE*
+DATE							~
 Displays or sets the date.
 
 DATE [/T | date]
@@ -733,7 +752,8 @@ current date, without prompting for a new date.
 
 ==============================================================================
 
-DEL							*DEL*~
+                                                                 *DEL*
+DEL							~
 Deletes one or more files.
 
 DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
@@ -760,7 +780,8 @@ you only the files that are deleted, not the ones it could not find.
 
 ==============================================================================
 
-DIR							*DIR*~
+                                                                 *DIR*
+DIR							~
 Displays a list of files and subdirectories in a directory.
 
 DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N]
@@ -802,7 +823,8 @@ preset switches by prefixing any switch with - (hyphen)--for example, /-W.
 
 ==============================================================================
 
-DISKCOMP							*DISKCOMP*~
+                                                                 *DISKCOMP*
+DISKCOMP							~
 Compares the contents of two floppy disks.
 
 DISKCOMP [drive1: [drive2:]]
@@ -810,7 +832,8 @@ DISKCOMP [drive1: [drive2:]]
 
 ==============================================================================
 
-DISKCOPY							*DISKCOPY*~
+                                                                 *DISKCOPY*
+DISKCOPY							~
 Copies the contents of one floppy disk to another.
 
 DISKCOPY [drive1: [drive2:]] [/V]
@@ -822,7 +845,8 @@ You may specify the same drive for drive1 and drive2.
 
 ==============================================================================
 
-DOSKEY							*DOSKEY*~
+                                                                 *DOSKEY*
+DOSKEY							~
 Edits command lines, recalls Windows XP commands, and creates macros.
 
 DOSKEY [/REINSTALL] [/LISTSIZE=size] [/MACROS[:ALL | :exename]]
@@ -854,7 +878,8 @@ $*     Symbol replaced by everything following macro name on command line.
 
 ==============================================================================
 
-ECHO							*ECHO*~
+                                                                 *ECHO*
+ECHO							~
 Displays messages, or turns command-echoing on or off.
 
   ECHO [ON | OFF]
@@ -864,7 +889,8 @@ Type ECHO without parameters to display the current echo setting.
 
 ==============================================================================
 
-ENDLOCAL							*ENDLOCAL*~
+                                                                 *ENDLOCAL*
+ENDLOCAL							~
 Ends localization of environment changes in a batch file.
 Environment changes made after ENDLOCAL has been issued are
 not local to the batch file; the previous settings are not
@@ -882,7 +908,8 @@ command execution.
 
 ==============================================================================
 
-ERASE							*ERASE*~
+                                                                 *ERASE*
+ERASE							~
 Deletes one or more files.
 
 DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
@@ -909,7 +936,8 @@ you only the files that are deleted, not the ones it could not find.
 
 ==============================================================================
 
-EXIT							*EXIT*~
+                                                                 *EXIT*
+EXIT							~
 Quits the CMD.EXE program (command interpreter) or the current batch
 script.
 
@@ -925,7 +953,8 @@ EXIT [/B] [exitCode]
 
 ==============================================================================
 
-FC							*FC*~
+                                                                 *FC*
+FC							~
 Compares two files or sets of files and displays the differences between
 them
 
@@ -955,12 +984,14 @@ FC /B [drive1:][path1]filename1 [drive2:][path2]filename2
 
 ==============================================================================
 
-FIND							*FIND*~
+                                                                 *FIND*
+FIND							~
 FIND: /?: No such file or directory
 
 ==============================================================================
 
-FINDSTR							*FINDSTR*~
+                                                                 *FINDSTR*
+FINDSTR							~
 Searches for strings in files.
 
 FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:file]
@@ -1012,7 +1043,8 @@ Reference.
 
 ==============================================================================
 
-FOR							*FOR*~
+                                                                 *FOR*
+FOR							~
 Runs a specified command for each file in a set of files.
 
 FOR %variable IN (set) DO command [command-parameters]
@@ -1169,7 +1201,8 @@ avoids confusion with the modifiers, which are not case sensitive.
 
 ==============================================================================
 
-FORMAT							*FORMAT*~
+                                                                 *FORMAT*
+FORMAT							~
 Formats a disk for use with Windows XP.
 
 FORMAT volume [/FS:file-system] [/V:label] [/Q] [/A:size] [/C] [/X]
@@ -1214,7 +1247,8 @@ FORMAT volume [/Q]
 
 ==============================================================================
 
-FTYPE							*FTYPE*~
+                                                                 *FTYPE*
+FTYPE							~
 Displays or modifies file types used in file extension associations
 
 FTYPE [fileType[=[openCommandString]]]
@@ -1235,7 +1269,7 @@ parameters starting with the nth parameter, where n may be between 2 and 9,
 inclusive.  For example: >
 
     ASSOC .pl=PerlScript
-    FTYPE PerlScript=perl.exe %1 %*~
+    FTYPE PerlScript=perl.exe %1 %*
 
 would allow you to invoke a Perl script as follows:
 
@@ -1252,7 +1286,8 @@ and the script could be invoked as follows:
 
 ==============================================================================
 
-GOTO							*GOTO*~
+                                                                 *GOTO*
+GOTO							~
 Directs cmd.exe to a labeled line in a batch program.
 
 GOTO label
@@ -1271,7 +1306,8 @@ useful.
 
 ==============================================================================
 
-GRAFTABL							*GRAFTABL*~
+                                                                 *GRAFTABL*
+GRAFTABL							~
 Enable Windows to display an extended character set in graphics mode.
 
 GRAFTABL [xxx]
@@ -1282,7 +1318,8 @@ GRAFTABL /STATUS
 
 ==============================================================================
 
-HELP							*HELP*~
+                                                                 *HELP*
+HELP							~
 Provides help information for Windows XP commands.
 
 HELP [command]
@@ -1291,7 +1328,8 @@ HELP [command]
 
 ==============================================================================
 
-IF							*IF*~
+                                                                 *IF*
+IF							~
 Performs conditional processing in batch programs.
 
 IF [NOT] ERRORLEVEL number command
@@ -1400,7 +1438,8 @@ will get its value instead.
 
 ==============================================================================
 
-LABEL							*LABEL*~
+                                                                 *LABEL*
+LABEL							~
 Creates, changes, or deletes the volume label of a disk.
 
 LABEL [drive:][label]
@@ -1416,7 +1455,8 @@ LABEL [/MP] [volume] [label]
 
 ==============================================================================
 
-MD							*MD*~
+                                                                 *MD*
+MD							~
 Creates a directory.
 
 MKDIR [drive:]path
@@ -1443,7 +1483,8 @@ which is what you would have to type if extensions were disabled.
 
 ==============================================================================
 
-MKDIR							*MKDIR*~
+                                                                 *MKDIR*
+MKDIR							~
 Creates a directory.
 
 MKDIR [drive:]path
@@ -1470,7 +1511,8 @@ which is what you would have to type if extensions were disabled.
 
 ==============================================================================
 
-MODE							*MODE*~
+                                                                 *MODE*
+MODE							~
 Configures system devices.
 
 Serial port:       MODE COMm[:] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]
@@ -1492,12 +1534,14 @@ Typematic rate:    MODE CON[:] [RATE=r DELAY=d]
 
 ==============================================================================
 
-MORE							*MORE*~
+                                                                 *MORE*
+MORE							~
 more: input file "/?": The system cannot find the file specified. 
 
 ==============================================================================
 
-MOVE							*MOVE*~
+                                                                 *MOVE*
+MOVE							~
 Moves files and renames files and directories.
 
 To move one or more files:
@@ -1528,7 +1572,8 @@ within a batch script.
 
 ==============================================================================
 
-PATH							*PATH*~
+                                                                 *PATH*
+PATH							~
 Displays or sets a search path for executable files.
 
 PATH [[drive:]path[;...][;%PATH%]
@@ -1542,13 +1587,15 @@ appended to the new setting.
 
 ==============================================================================
 
-PAUSE							*PAUSE*~
+                                                                 *PAUSE*
+PAUSE							~
 Suspends processing of a batch program and displays the message
     Press any key to continue . . . 
 
 ==============================================================================
 
-POPD							*POPD*~
+                                                                 *POPD*
+POPD							~
 Changes to the directory stored by the PUSHD command.
 
 POPD
@@ -1560,7 +1607,8 @@ drive off the pushed directory stack.
 
 ==============================================================================
 
-PRINT							*PRINT*~
+                                                                 *PRINT*
+PRINT							~
 Prints a text file.
 
 PRINT [/D:device] [[drive:][path]filename[...]]
@@ -1570,7 +1618,8 @@ PRINT [/D:device] [[drive:][path]filename[...]]
 
 ==============================================================================
 
-PROMPT							*PROMPT*~
+                                                                 *PROMPT*
+PROMPT							~
 Changes the cmd.exe command prompt.
 
 PROMPT [text]
@@ -1610,7 +1659,8 @@ the following additional formatting characters:
 
 ==============================================================================
 
-PUSHD							*PUSHD*~
+                                                                 *PUSHD*
+PUSHD							~
 Stores the current directory for use by the POPD command, then
 changes to the specified directory.
 
@@ -1628,7 +1678,8 @@ Z: on down, using the first unused drive letter found.
 
 ==============================================================================
 
-RD							*RD*~
+                                                                 *RD*
+RD							~
 Removes (deletes) a directory.
 
 RMDIR [/S] [/Q] [drive:]path
@@ -1642,7 +1693,8 @@ RD [/S] [/Q] [drive:]path
 
 ==============================================================================
 
-RECOVER							*RECOVER*~
+                                                                 *RECOVER*
+RECOVER							~
 Recovers readable information from a bad or defective disk.
 
 RECOVER [drive:][path]filename
@@ -1651,14 +1703,16 @@ before using the RECOVER command.
 
 ==============================================================================
 
-REM							*REM*~
+                                                                 *REM*
+REM							~
 Records comments (remarks) in a batch file or CONFIG.SYS.
 
 REM [comment]
 
 ==============================================================================
 
-REN							*REN*~
+                                                                 *REN*
+REN							~
 Renames a file or files.
 
 RENAME [drive:][path]filename1 filename2.
@@ -1668,7 +1722,8 @@ Note that you cannot specify a new drive or path for your destination file.
 
 ==============================================================================
 
-RENAME							*RENAME*~
+                                                                 *RENAME*
+RENAME							~
 Renames a file or files.
 
 RENAME [drive:][path]filename1 filename2.
@@ -1678,7 +1733,8 @@ Note that you cannot specify a new drive or path for your destination file.
 
 ==============================================================================
 
-REPLACE							*REPLACE*~
+                                                                 *REPLACE*
+REPLACE							~
 Replaces files.
 
 REPLACE [drive1:][path1]filename [drive2:][path2] [/A] [/P] [/R] [/W]
@@ -1702,7 +1758,8 @@ REPLACE [drive1:][path1]filename [drive2:][path2] [/P] [/R] [/S] [/W] [/U]
 
 ==============================================================================
 
-RMDIR							*RMDIR*~
+                                                                 *RMDIR*
+RMDIR							~
 Removes (deletes) a directory.
 
 RMDIR [/S] [/Q] [drive:]path
@@ -1716,7 +1773,8 @@ RD [/S] [/Q] [drive:]path
 
 ==============================================================================
 
-SET							*SET*~
+                                                                 *SET*
+SET							~
 Displays, sets, or removes cmd.exe environment variables.
 
 SET [variable=[string]]
@@ -1890,7 +1948,8 @@ that definition will override the dynamic one described below:
 
 ==============================================================================
 
-SETLOCAL							*SETLOCAL*~
+                                                                 *SETLOCAL*
+SETLOCAL							~
 Begins localization of environment changes in a batch file.  Environment
 changes made after SETLOCAL has been issued are local to the batch file.
 ENDLOCAL must be issued to restore the previous settings.  When the end
@@ -1927,7 +1986,8 @@ initializes the ERRORLEVEL value to a non-zero value.
 
 ==============================================================================
 
-SHIFT							*SHIFT*~
+                                                                 *SHIFT*
+SHIFT							~
 Changes the position of replaceable parameters in a batch file.
 
 SHIFT [/n]
@@ -1942,12 +2002,14 @@ would shift %3 to %2, %4 to %3, etc. and leave %0 and %1 unaffected.
 
 ==============================================================================
 
-SORT							*SORT*~
+                                                                 *SORT*
+SORT							~
 SORT: open failed: /?: No such file or directory
 
 ==============================================================================
 
-START							*START*~
+                                                                 *START*
+START							~
 Starts a separate window to run a specified program or command.
 
 START ["title"] [/Dpath] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]
@@ -2024,7 +2086,8 @@ command line, it is the equivalent to doing a CD /D to that path.
 
 ==============================================================================
 
-SUBST							*SUBST*~
+                                                                 *SUBST*
+SUBST							~
 Associates a path with a drive letter.
 
 SUBST [drive1: [drive2:]path]
@@ -2039,7 +2102,8 @@ Type SUBST with no parameters to display a list of current virtual drives.
 
 ==============================================================================
 
-TIME							*TIME*~
+                                                                 *TIME*
+TIME							~
 Displays or sets the system time.
 
 TIME [/T | time]
@@ -2053,7 +2117,8 @@ current time, without prompting for a new time.
 
 ==============================================================================
 
-TITLE							*TITLE*~
+                                                                 *TITLE*
+TITLE							~
 Sets the window title for the command prompt window.
 
 TITLE [string]
@@ -2062,7 +2127,8 @@ TITLE [string]
 
 ==============================================================================
 
-TREE							*TREE*~
+                                                                 *TREE*
+TREE							~
 Graphically displays the folder structure of a drive or path.
 
 TREE [drive:][path] [/F] [/A]
@@ -2073,21 +2139,24 @@ TREE [drive:][path] [/F] [/A]
 
 ==============================================================================
 
-TYPE							*TYPE*~
+                                                                 *TYPE*
+TYPE							~
 Displays the contents of a text file or files.
 
 TYPE [drive:][path]filename
 
 ==============================================================================
 
-VER							*VER*~
+                                                                 *VER*
+VER							~
 Displays the Windows XP version.
 
 VER
 
 ==============================================================================
 
-VERIFY							*VERIFY*~
+                                                                 *VERIFY*
+VERIFY							~
 Tells cmd.exe whether to verify that your files are written correctly to a
 disk.
 
@@ -2097,14 +2166,16 @@ Type VERIFY without a parameter to display the current VERIFY setting.
 
 ==============================================================================
 
-VOL							*VOL*~
+                                                                 *VOL*
+VOL							~
 Displays the disk volume label and serial number, if they exist.
 
 VOL [drive:]
 
 ==============================================================================
 
-XCOPY							*XCOPY*~
+                                                                 *XCOPY*
+XCOPY							~
 Copies files and directory trees.
 
 XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W]
